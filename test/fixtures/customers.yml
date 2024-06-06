@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: customers
+#
+#  id                :integer          not null, primary key
+#  name              :string
+#  phone_number      :string
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#  custom_attributes :text             default({})
+#
+
+one:
+  name: 'customer'
+  phone_number: '555-555-555'
+  custom_attributes: '{}'
+
+two:
+  name: 'another'
+  phone_number: '555-555-556'
+  custom_attributes: '{}'
